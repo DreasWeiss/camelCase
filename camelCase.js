@@ -4,5 +4,13 @@ function camelCase(str) {
         .join('');
 }
 
-camelCase('');
-console.log(camelCase('Access the JSON Data from an API'));
+const readline = require('readline');
+const rl = readline.createInterface({
+    input: process.stdin
+});
+rl.on('line', function (line) {
+    console.log(camelCase(line));
+});
+rl.on('end', function () {
+    process.exit(0);
+});
