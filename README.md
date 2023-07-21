@@ -1,2 +1,2 @@
 # camelCase
-Script for making dir names 
+Script for making dir names for macOs
