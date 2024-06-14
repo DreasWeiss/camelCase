@@ -62,6 +62,7 @@ rl.on('line', function (line) {
         }
     );
     console.log(camelCase(line));
+    process.exit(0);
 });
 rl.on('end', function () {
     process.exit(0);
