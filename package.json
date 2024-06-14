@@ -1,0 +1,23 @@
+{
+  "name": "camelcase",
+  "version": "1.0.0",
+  "description": "Script for making dir names in a camelCase for macOs",
+  "main": "camelCase.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DreasWeiss/camelCase.git"
+  },
+  "keywords": [
+    "camelcase",
+    "utilz"
+  ],
+  "author": "Dreas Weiss",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DreasWeiss/camelCase/issues"
+  },
+  "homepage": "https://github.com/DreasWeiss/camelCase#readme"
+}
